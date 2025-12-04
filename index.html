@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
+    <title>Calculator</title>
 </head>
 <body>
-   <link rel="stylesheet" href="./output.css">
-<div class="w-1/2 m-6 p-6 bg-purple-100 rounded-xl shadow-md border-t-2 border-purple-900">
-  <h1 class="text-3xl font-bold">
-    Tailwind CSS 🤍
-  </h1>
-
-  <p class="text-lg font-medium leading-6 text-gray-800 mt-2">
-    Tailwind CSS is basically a utility-first CSS framework for 
-    rapidly building custom user interfaces. It is a highly 
-    customizable, low-level CSS framework that gives you all of the 
-    building blocks you need to build bespoke designs.
-  </p>
-</div>
-
-
+    <h1>Calculator</h1>
+    <input type="number" id = "num1" placeholder="Enter the 1st number: ">
+    <br>
+     <br>
+     <input type="number" id = "num2" placeholder="Enter the 2nd number">
+    <br>
+     <br>
+    <input type="button" value="+" onclick="add()">
+    <input type="button" value="-" onclick="sub()">
+    <input type="button" value="*" onclick="mul()">
+    <input type="button" value="/" onclick="divi()">
+    
+    <script src="calc.js"></script>
 </body>
 </html>
